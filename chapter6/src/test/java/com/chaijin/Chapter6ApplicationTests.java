@@ -16,6 +16,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.IntStream;
 
+/**
+ * stringRedisTemplate,redisCacheTemplate进行存储，和获取
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class Chapter6ApplicationTests {
