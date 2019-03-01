@@ -3,7 +3,7 @@ package com.chaijin.entity;
 import java.io.Serializable;
 
 /**
- * @author Levin
+ * @author chaijin
  * @since 2018/5/10 0007
  */
 public class User implements Serializable {

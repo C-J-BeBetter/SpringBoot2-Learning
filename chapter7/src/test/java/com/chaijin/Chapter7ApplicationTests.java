@@ -26,7 +26,7 @@ public class Chapter7ApplicationTests {
         log.info("[saveOrUpdate] - [{}]", user);
         final User user1 = userService.get(5L);
         log.info("[get] - [{}]", user1);
-        userService.delete(5L);
+//        userService.delete(5L);
     }
 
 }
