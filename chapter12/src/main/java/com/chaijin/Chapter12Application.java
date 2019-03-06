@@ -8,6 +8,10 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
+/**
+ * @EnableAsync 支持多线程执行
+ * @Async @Async为异步注解，放到方法上，表示调用该方法的线程与此方法异步执行，需要配合@EnableAsync注解使用
+ */
 @EnableAsync
 @EnableScheduling
 @SpringBootApplication
@@ -24,7 +28,7 @@ public class Chapter12Application {
     @Bean
     public TaskScheduler taskScheduler() {
         ThreadPoolTaskScheduler taskScheduler = new ThreadPoolTaskScheduler();
-        taskScheduler.setPoolSize(10);
+        taskScheduler.setPoolSize(1);
         return taskScheduler;
     }
 
