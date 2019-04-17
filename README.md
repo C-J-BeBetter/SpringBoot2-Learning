@@ -3,7 +3,7 @@
 
 转自：https://github.com/battcn/spring-boot2-learning
 
-<br>第一篇：构建<br>第一个SpringBoot工程	
+<br>第一篇：构建第一个SpringBoot工程	
 <br>第二篇：SpringBoot读取配置properties	
 <br>第三篇：整合thymeleaf	
 <br>第四篇：使用jdbctemplate访问数据库	
