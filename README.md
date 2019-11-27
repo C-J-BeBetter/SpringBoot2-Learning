@@ -23,5 +23,7 @@
 <br>第十八篇：轻松搞定重复提交（一）	
 <br>第十九篇：轻松搞定重复提交（Redis实现分布式锁）	
 <br>第二十篇：数据库的迁移和管理（Liqiubase）	
-<br>第二十一篇：打造属于你的聊天室（WebSocket）		
+<br>第二十一篇：打造属于你的聊天室（WebSocket）
+<br>第二十三篇：Java多线程特性
+<br>第二十四篇：html转pdf并导出（wkhtmltopdf）		
 
