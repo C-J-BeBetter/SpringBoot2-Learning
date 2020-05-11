@@ -25,5 +25,7 @@
 <br>第二十篇：数据库的迁移和管理（Liqiubase）	
 <br>第二十一篇：打造属于你的聊天室（WebSocket）
 <br>第二十三篇：Java多线程特性
-<br>第二十四篇：html转pdf并导出（wkhtmltopdf）		
+<br>第二十四篇：html转pdf并导出（wkhtmltopdf）	
+<br>第二十五篇：itextpdf手写pdf
+<br>第二十六篇：Java8流式数据处理
 

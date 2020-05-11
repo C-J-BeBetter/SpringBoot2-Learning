@@ -1,6 +1,6 @@
 package com.chaijin.controller;
 
-import com.battcn.config.ShiroConfiguration;
+import com.chaijin.config.ShiroConfiguration;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.subject.Subject;
