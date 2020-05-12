@@ -1,0 +1,20 @@
+dubbo:
+  application:
+    name: dubbo-provider
+    version: 2.7.3
+  registry:
+    address: 192.168.100.200:2181
+    # 读者请自行更改zookeeper地址
+    protocol: zookeeper
+    check: false
+  protocol:
+    name: dubbo
+    port: 30003
+  monitor:
+    protocol: register
+  consumer:
+    check: false
+    timeout: 3000
+
+server:
+  port: 8061

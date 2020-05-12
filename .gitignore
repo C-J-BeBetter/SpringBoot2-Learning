@@ -1,5 +1,13 @@
 # Created by .ignore support plugin (hsz.mobi)
+/.idea
 /*/.mvn
 /*/mvnw
 /*/mvnw.cmd
-/.idea
+/*/target
+/*/*.iml
+
+/*/*/.mvn
+/*/*/mvnw
+/*/*/mvnw.cmd
+/*/*/target
+/*/*/*.iml
