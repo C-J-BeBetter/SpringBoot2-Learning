@@ -16,11 +16,12 @@ public class ProductController {
 
     /**
      * 添加完 返回总共消费
+     *
      * @param a
      * @return
      */
     @RequestMapping("/add")
-    public String getCost(int a){
-        return "该产品总共消费 ："+productService.getCost(a);
+    public String getCost(int a) {
+        return "该产品总共消费 ：" + productService.getCost(a);
     }
 }

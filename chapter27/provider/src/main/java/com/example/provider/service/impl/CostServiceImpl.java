@@ -16,6 +16,7 @@ public class CostServiceImpl implements CostService {
 
     /**
      * 之前总和 加上 最近一笔
+     *
      * @param cost
      * @return
      */
